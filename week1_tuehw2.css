@@ -1,3 +1,93 @@
+p {
+    color: #2c3e50;
+    font: italic 20px Verdana;
+}
+
+#para1 {
+    color: #2ecc71;
+}
+
+.header {
+    color:#e67e22;
+}
+
 h1 {
-    text-align: center;
+    background-color: linen;
+}
+
+body {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #27ae60;
+  }
+
+h1:first-of-type {
+    visibility: hidden;
+    display: none;
+
+}
+
+#assignment1 {
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+#assignment2 a:visited {
+    color: black;
+}
+
+#assignment2 a:hover {
+    color: rebeccapurple;
+    transition: color 0.35s ease-in-out;
+}
+
+#assignment2 a:active {
+    color: blue;
+}
+
+#assignment2 a:link {
+    color: green;
+}
+
+#assignment3 {
+    font-size: 16px;
+}
+
+#assignment3 li {
+    font-size: 0.8em;
+}
+
+#assignment4 .box {
+    background-color: blue;
+    width: 50vmin;
+    height: 50vmin;
+
+}
+
+#assignment5 .box {
+    border: 50px solid #e74c3c;
+    padding: 50px;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+#assignment5 .content {
+    border: 50px solid #2ecc71;
+    padding: 50px 0;
+    text-transform: uppercase;
+    width: 50%;
+    box-sizing: content-box;
+}
+
+* {
+    box-sizing: border-box;
 }
