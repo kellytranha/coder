@@ -1,0 +1,40 @@
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+
+/* Challenge 1 */
+
+.right {
+    display: flex;
+}
+
+#challenge1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#div2 {
+    margin-right: 10px;
+}
+
+/* Challenge 2 */
+
+#challenge2 {
+	display: flex;
+	flex-direction: column;
+}
+
+#challenge2 .box:nth-child(2) {
+    align-self: center;
+}
+
+#challenge2 .box:nth-child(3) {
+    align-self: flex-end;
+}
