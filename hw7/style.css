@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+#layer1 {
+    position:relative;
+	z-index: 1;
+}
+
+#layer2 {
+    position:absolute;
+	z-index: 2;
+	text-transform: uppercase;
+	font-size: 250px;
+	transition-duration: 0.2s;
+	align-self: center;
+	
+}
